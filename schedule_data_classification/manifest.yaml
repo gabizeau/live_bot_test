@@ -1,0 +1,10 @@
+# Built-in Sonrai Bot: srn:supersonrai::bot/6a5fa52c-eba8-4023-be02-9af1e1a6933f
+version: 2020-11-06
+type: Remediation
+title: Schedule Data Classification (Azure)
+operation: EXECUTE_PYTHON_SCRIPT
+authorName: Sonrai Security
+cloud: Azure
+authorEmail: info@sonraisecurity.com
+requiredPermissions: |-
+  No permissions needed
