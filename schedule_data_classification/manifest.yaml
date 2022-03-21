@@ -4,7 +4,7 @@ type: Remediation
 title: Schedule Data Classification (ANY)
 operation: EXECUTE_PYTHON_SCRIPT
 authorName: Sonrai Security
-cloud: ANY
+cloud: Azure
 authorEmail: info@sonraisecurity.com
 requiredPermissions: |-
   No permissions needed
