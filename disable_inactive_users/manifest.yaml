@@ -10,6 +10,8 @@ requiredPermissions: |-
   No permissions needed
 
 # one or more fields must be specified
+description: "This template allows you to setup a bot to disable inactive users"
+
 fields:
   - name: "Never Disable These Users"
     required: true 
