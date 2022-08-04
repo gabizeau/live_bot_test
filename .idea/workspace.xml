@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce6baac-809c-45ef-9bb9-859f43f4bd38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/disable_inactive_users/ticket_template.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disable_inactive_users_custom_ticket/manifest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/disable_inactive_users_custom_ticket/manifest.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disable_inactive_users/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/disable_inactive_users/bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659620954302</updated>
       <workItem from="1659620955860" duration="160000" />
-      <workItem from="1659621219991" duration="2483000" />
+      <workItem from="1659621219991" duration="5870000" />
     </task>
     <task id="LOCAL-00001" summary="delete .idea file">
       <created>1659621369281</created>
@@ -90,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659623336046</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="try manifest with custom tickets">
+      <created>1659623715204</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659623715204</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
