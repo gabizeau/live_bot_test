@@ -1,5 +1,5 @@
 # title of ticket template is required
-title: "Disable sonrai inactive users"
+title: "Disable Sonrai Inactive Users"
 
 # The next fields are optional:
 description: "This template allows you to setup a bot to disable inactive users"

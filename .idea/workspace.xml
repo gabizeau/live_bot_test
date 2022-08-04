@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce6baac-809c-45ef-9bb9-859f43f4bd38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/disable_inactive_users/bot_manifest.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disable_inactive_users/manifest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/disable_inactive_users/manifest.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disable_inactive_users_custom_ticket/manifest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/disable_inactive_users_custom_ticket/manifest.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,14 @@
     "last_opened_file_path": "/Users/gbizeau/PycharmProjects/live_bot_test/disable_inactive_users"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/disable_inactive_users" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/disable_inactive_users_custom_ticket" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659620954302</updated>
       <workItem from="1659620955860" duration="160000" />
-      <workItem from="1659621219991" duration="1974000" />
+      <workItem from="1659621219991" duration="2483000" />
     </task>
     <task id="LOCAL-00001" summary="delete .idea file">
       <created>1659621369281</created>
@@ -68,7 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659622902967</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="try manifest with custom tickets">
+      <created>1659623204848</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659623204848</updated>
+    </task>
+    <task id="LOCAL-00005" summary="try manifest with custom tickets">
+      <created>1659623336046</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659623336046</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
