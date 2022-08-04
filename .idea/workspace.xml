@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ce6baac-809c-45ef-9bb9-859f43f4bd38" name="Changes" comment="" />
+    <list default="true" id="8ce6baac-809c-45ef-9bb9-859f43f4bd38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/disable_inactive_users/bot_manifest.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disable_inactive_users/manifest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/disable_inactive_users/manifest.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +32,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/gbizeau/PycharmProjects/live_bot_test/disable_inactive_users"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -41,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659620954302</updated>
       <workItem from="1659620955860" duration="160000" />
-      <workItem from="1659621219991" duration="1529000" />
+      <workItem from="1659621219991" duration="1974000" />
     </task>
     <task id="LOCAL-00001" summary="delete .idea file">
       <created>1659621369281</created>
@@ -57,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659622399721</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="try manifest with custom tickets">
+      <created>1659622902967</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659622902967</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
