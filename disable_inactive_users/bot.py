@@ -17,10 +17,29 @@ def run(ctx):
     logging.info('Loading User Results')
     data = graphql_client.query(gql['Users.gql'])
 
-    # --- Custom Variables (Yes you can change these)
-    days = 90  # how many days to look for inactive users
-    keep_sonrai_security_users = True  # Do you want to keep @sonraisecurity users (Generally Support and PS)
-    never_disable = ['joe@smith.com']  # List of users to never disable ['user1@tld.com','user2@tld.com']
+    # --- Custom Variables (Yes you can change the ones in the else: section)    
+    # Loop through each of the custom fields and set the values that we need
+    for customField in ticket.get('customFields'):
+        if 'value' not in customField.keys():
+            continue
+
+        name = customField['name']
+        value = customField['value']
+
+        if name == 'Disable in-active users after this many days':
+            days = value
+        else:
+            days = 90  # how many days to look for inactive users
+        
+        if name == 'Keep Sonrai-Security Users':
+            keep_sonrai_security_users = value
+        else:
+            keep_sonrai_security_users = True  # Do you want to keep @sonraisecurity users (Generally Support and PS)
+            
+        if name == 'Never Disable These Users':
+            never_disable = value
+        else:
+            never_disable = ['joe@smith.com']  # List of users to never disable ['user1@tld.com','user2@tld.com']        
     # --- End of Custom Variables
 
     # some time foolery
