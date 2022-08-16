@@ -23,7 +23,7 @@ def run(ctx):
     never_disable = ['joe@smith.com']  # List of users to never disable ['user1@tld.com','user2@tld.com']
     
     # Loop through each of the custom fields and set the values that we need
-    for customField in ticket.get('customFields'):
+    for customField in ctx.config.get('data').get('ticket').get('customFields'):
         if 'value' not in customField.keys():
             continue
 
