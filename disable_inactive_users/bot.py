@@ -31,7 +31,7 @@ def run(ctx):
         value = customField['value']
 
         if name == 'Disable in-active users after this many days':
-            days = value
+            days = int(value)
         
         if name == 'Keep Sonrai-Security Users':
             keep_sonrai_security_users = value
