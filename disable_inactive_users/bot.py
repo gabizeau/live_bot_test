@@ -22,22 +22,24 @@ def run(ctx):
     keep_sonrai_security_users = True  # Do you want to keep @sonraisecurity users (Generally Support and PS)
     never_disable = ['joe@smith.com']  # List of users to never disable ['user1@tld.com','user2@tld.com']
     
-    # Loop through each of the custom fields and set the values that we need
-    for customField in ctx.config.get('data').get('ticket').get('customFields'):
-        if 'value' not in customField.keys():
-            continue
+    # Loop through each of the custom fields and set the values that we need if the Custom Ticket exist
+    custom_ticket = ctx.config.get('data').get('ticket').get('customFields')
+    if custom_ticket:
+        for custom_field in custom_ticket:
+            if 'value' not in custom_field.keys():
+                continue
 
-        name = customField['name']
-        value = customField['value']
+            name = custom_field['name']
+            value = custom_field['value']
 
-        if name == 'Disable in-active users after this many days':
-            days = int(value)
-        
-        if name == 'Keep Sonrai-Security Users':
-            keep_sonrai_security_users = value
+            if name == 'Disable in-active users after this many days':
+                days = int(value)
 
-        if name == 'Never Disable These Users':
-            never_disable = value
+            if name == 'Keep Sonrai-Security Users':
+                keep_sonrai_security_users = value
+
+            if name == 'Never Disable These Users':
+                never_disable = value
                   
     # --- End of Custom Variables
 
